@@ -1,0 +1,40 @@
+.container {
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.container-fluid{
+    width: 100%;
+    background-image: url('../../assets/continerFluidBG.jpeg');
+
+}
+
+.textDiv {
+    margin-bottom:5%;
+    margin-top:-2%;
+}
+
+.account {
+    color:black;
+    margin-top:1%;
+}
+
+.pText {
+    padding-bottom: 50%;
+}
+
+h5{
+    color: black;
+}
+
+.buttonDiv {
+    margin-top:-2%;
+    padding-bottom:2%;
+    width: 100%;
+}
+
+.userAuthBtn {
+    width: 50%;
+}
+
