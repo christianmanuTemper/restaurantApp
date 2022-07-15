@@ -1,4 +1,4 @@
-.container {
+/* .container {
     height: 100%;
     width: 100%;
     color: white;
@@ -7,6 +7,15 @@
 .container-fluid{
     width: 100%;
     background-image: url('../../assets/continerFluidBG.jpeg');
+} */
+
+.chickenSand {
+  background-image: url('../../assets/continerFluidBG.jpeg');
+  background-size: cover;
+}
+
+.mainSize {
+  height:658px;
 }
 
 .textDiv {
@@ -19,19 +28,19 @@
     margin-top:1%;
 }
 
-.pText {
+/* .pText {
     padding-bottom: 50%;
-}
+} */
 
 h5{
     color: black;
 }
 
-.buttonDiv {
-    margin-top:-2%;
-    padding-bottom:2%;
+/* .buttonDiv {
+    margin-top:20px;
+    padding-bottom:20px;
     width: 100%;
-}
+} */
 
 .userAuthBtn {
     width: 50%;
