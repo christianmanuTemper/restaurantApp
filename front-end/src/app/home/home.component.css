@@ -1,0 +1,21 @@
+.container-fluid {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../assets/background_pic.jpg');
+    color: white;
+}
+
+.mat-raised-button{
+    width: 40%;
+}
+
+
+.deliveryBtn{
+   
+    margin-bottom:2%
+}
+
+
+.welcomeMessage {
+    padding-bottom: 33%;
+}
