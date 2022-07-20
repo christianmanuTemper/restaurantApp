@@ -13,6 +13,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { RewardsComponent } from './rewards/rewards.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 
@@ -34,6 +35,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     MatButtonModule,
     MatCardModule,
     MatProgressBarModule,
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

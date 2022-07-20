@@ -1,4 +1,4 @@
-<div><mat-tab-group headerPosition="below" mat-align-tabs="center" animationDuration="0ms">
+<!-- <div ><mat-tab-group  headerPosition="below" mat-align-tabs="center" animationDuration="0ms">
   <mat-tab>
     <ng-template mat-tab-label>
       <mat-icon class="example-tab-icon">flatware</mat-icon>
@@ -34,4 +34,29 @@
     Account
   </mat-tab>
 </mat-tab-group>
-</div>
+</div> -->
+<router-outlet></router-outlet>
+<mat-toolbar class="fixed-bottom">
+  <button mat-button class=" " aria-label="Example icon-button with menu icon" routerLink="/home">
+    MENU
+
+  </button>
+
+  <button mat-button class="" aria-label="Example icon-button with menu icon" routerLink="/rewards">
+
+    REWARDS
+
+  </button>
+
+  <button mat-button class="" aria-label="Example icon-button with menu icon" routerLink="/logout">
+
+    ACCOUNT
+
+  </button>
+  <button mat-button class="" aria-label="Example icon-button with menu icon" routerLink="/">
+
+    MY ORDER
+
+  </button>
+
+</mat-toolbar>

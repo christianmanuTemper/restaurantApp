@@ -6,4 +6,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .example-tab-icon {
     margin-right: 8px;
   }
-  
+  .mainSize {
+    height:100vh;
+  }

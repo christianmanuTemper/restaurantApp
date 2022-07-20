@@ -1,17 +1,20 @@
 .container-fluid {
-    height: 100%;
-    width: 100%;
+
     background-image: url('../../assets/background_pic.jpg');
     color: white;
+    background-size: cover;
 }
 
 .mat-raised-button{
     width: 40%;
 }
 
+.mainSize {
+  height:100vh;
+}
 
 .deliveryBtn{
-   
+
     margin-bottom:2%
 }
 
