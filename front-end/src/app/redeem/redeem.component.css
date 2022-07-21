@@ -1,0 +1,23 @@
+.redeem1 {
+    height: 50%;
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+    color: white;
+    background-color: #E5E4E2;
+}
+
+.redeem2 {
+    height: 40%;
+    width: 100%;
+    /* padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%; */
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

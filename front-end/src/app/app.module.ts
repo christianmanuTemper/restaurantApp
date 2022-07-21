@@ -13,7 +13,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { RewardsComponent } from './rewards/rewards.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
-
+import { RedeemComponent } from './redeem/redeem.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 
 
@@ -23,7 +24,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     LoginComponent,
     LogoutComponent,
     HomeComponent,
-    RewardsComponent
+    RewardsComponent,
+    RedeemComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +36,7 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     MatButtonModule,
     MatCardModule,
     MatProgressBarModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
