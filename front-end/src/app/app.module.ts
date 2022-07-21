@@ -15,6 +15,8 @@ import {MatCardModule} from '@angular/material/card';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
+import { RedeemComponent } from './redeem/redeem.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 
 
@@ -24,7 +26,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     LoginComponent,
     LogoutComponent,
     HomeComponent,
-    RewardsComponent
+    RewardsComponent,
+    RedeemComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +39,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatCardModule,
     MatProgressBarModule,
     MatToolbarModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

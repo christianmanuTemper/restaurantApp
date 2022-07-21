@@ -1,4 +1,4 @@
-.container-fluid {
+.container-fluid1 {
     height: 100%;
     width: 100%;
     color: black;
@@ -19,16 +19,7 @@
     justify-content: center;
 }
 
-.redeem1 {
-    height: 40%;
-    width: 100%;
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 15%;
-    color: white;
-    background-color: #E5E4E2;
-}
+
 
 .redeem2 {
     height: 40%;
