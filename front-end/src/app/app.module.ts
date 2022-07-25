@@ -14,10 +14,11 @@ import { RewardsComponent } from './rewards/rewards.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatToolbarModule} from '@angular/material/toolbar';
-
+import {MatDialogModule} from '@angular/material/dialog';
 import { RedeemComponent } from './redeem/redeem.component';
 import {MatDividerModule} from '@angular/material/divider';
-
+import { AccountCreationModalComponent } from './modals/account-creation-modal/account-creation-modal.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import {MatDividerModule} from '@angular/material/divider';
     LogoutComponent,
     HomeComponent,
     RewardsComponent,
-    RedeemComponent
+    RedeemComponent,
+    AccountCreationModalComponent
   ],
   imports: [
     BrowserModule,
@@ -40,6 +42,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatProgressBarModule,
     MatToolbarModule,
     MatDividerModule,
+    MatDialogModule,
+    MatFormFieldModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
