@@ -1,8 +1,13 @@
-.container-fluid {
 
-    background-image: url('../../assets/background_pic.jpg');
-    color: white;
-    background-size: cover;
+
+.mainImage {
+
+  color: white;
+  background: url('../../assets/background_pic.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .mat-raised-button{
