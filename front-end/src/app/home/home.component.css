@@ -11,18 +11,22 @@
 }
 
 .mat-raised-button{
-    width: 80%;
+    width: 15rem;
 }
 
 .mainSize {
   height:100vh;
 }
 
-.deliveryBtn{
+/* .deliveryBtn{
 
     margin-bottom:2%;
     width: 80%;
-}
+} */
+
+.container-fluid{
+  overflow: hidden;
+  }
 
 
 .welcomeMessage {

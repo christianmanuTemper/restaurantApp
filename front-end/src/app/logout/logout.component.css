@@ -49,3 +49,6 @@ h5{
     width: 50%;
 }
 
+.container-fluid{
+  overflow: hidden;
+  }
