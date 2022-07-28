@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {MatInputModule} from '@angular/material/input';
 
 @Component({
   selector: 'app-redeem',
@@ -43,6 +44,6 @@ threeOrLess = [this.product1, this.product2, this.product3, this.product4];
   }
 
  firstSection = document.getElementById('section1')
-  
+
 
 }

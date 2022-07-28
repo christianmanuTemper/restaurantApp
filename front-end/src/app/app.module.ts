@@ -19,6 +19,7 @@ import { RedeemComponent } from './redeem/redeem.component';
 import {MatDividerModule} from '@angular/material/divider';
 import { AccountCreationModalComponent } from './modals/account-creation-modal/account-creation-modal.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 
 @NgModule({
@@ -44,6 +45,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatDividerModule,
     MatDialogModule,
     MatFormFieldModule,
+    MatInputModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

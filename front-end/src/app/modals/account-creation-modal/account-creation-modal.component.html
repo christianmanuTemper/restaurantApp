@@ -1,22 +1,31 @@
 <div class="overAll_container">
     <div class="container-fluid">
-        <h1> Sign in with Chick-fil-A One</h1>
-        <p>Get points, redeem available rewards and reach new tiers with increasing benefits. Access your order history to make qui ck reorders and edits to existing orders.</p>
+        <h1 class="text-center"> Sign in </h1>
+        <p>Get points, redeem available rewards and reach new tiers with increasing benefits. Access your order history to make quick reorders and edits to existing orders.</p>
     </div>
-    <mat-divider [inset]="true"></mat-divider>
-    <div class="container-fluid">
-        <mat-form-field class="mat_form_field" appearance="outline">
-            <mat-label>Outline form field</mat-label>
+    <!-- <mat-divider [inset]="true"></mat-divider> -->
+    <hr>
+    <div class="container-fluid ">
+        <mat-form-field class="mat_form_field d-flex justify-content-center" appearance="outline">
+            <mat-label>Email</mat-label>
             <input matInput placeholder="Email">
-            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-            <mat-hint>Hint</mat-hint>
+            <mat-icon matSuffix>mail</mat-icon>
+            <!-- <mat-hint>Hint</mat-hint> -->
           </mat-form-field>
-          <mat-form-field class="mat_form_field"  appearance="outline">
-            <mat-label>Outline form field</mat-label>
+          <mat-form-field class="mat_form_field d-flex justify-content-center"  appearance="outline">
+            <mat-label>Password</mat-label>
             <input matInput placeholder="Password">
-            <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-            <mat-hint>Hint</mat-hint>
+            <mat-icon matSuffix>password</mat-icon>
+            <!-- <mat-hint>Hint</mat-hint> -->
           </mat-form-field>
+
+          <div class="row  ">
+            <div class="col buttonDiv d-flex justify-content-center">
+                <button mat-raised-button class="userAuthBtn" >
+                    Submit
+                </button>
+            </div>
+        </div>
     </div>
 
 </div>
